@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Setup npm package
-      run: npm init -y && npm install && npx cypress run
+      run: npm init -y && npm install && npx cypress run --headless --config-file cypress.json --browser chrome

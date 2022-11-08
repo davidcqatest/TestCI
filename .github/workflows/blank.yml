@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Setup npm package
-      run: npm init -y 
+      #run: npm init -y 
     - name: Checkout
       uses: actions/checkout@v2
       # Install NPM dependencies, cache them correctly
